@@ -12,6 +12,30 @@
     />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav nav-pills">
+      <div class="container-fluid">
+        <!--<a class="navbar-brand" href="#">Navbar</a>-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">About Me</a>
+            <a class="nav-link" href="#">Experience</a>
+            <a class="nav-link" href="#">Resume</a>
+            <a class="nav-link" href="#">Personal Life</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="about-section">
       <h1>Who is Serena?</h1>
       <p></p>
@@ -23,21 +47,27 @@
 
     <div class="container-fluid text-left">
       <div class="row head align-items-start">
-        <div class="col">About Me</div>
+        <div class="col"><b>About Me</b></div>
       </div>
-</div>
- 
-      <div class="container-sm text-left">
-      
+    </div>
+
+    <div class="container-fluid text-left">
       <div class="row dist align-iteam-start">
         <div class="col-3">
           Hi, my name is Serena. I grew up in San francisco, California. I
           earned my Bachelor of Science in Mechanical Enigneering with a focus
           in Aerospace Engineering from the University of California, Berkeley
-        
-       
+        </div>
       </div>
     </div>
-    </div>
+    <div class="tab-content" id="Experience">
+  <h2>Tab 1: Experience</h2>
+  <p>Content for the introduction.</p>
+</div>
+
+<div id="Resume">
+  <h2>Tab 2: Resume</h2>
+  <p>More information about the topic.</p>
+</div>
   </body>
 </html>
