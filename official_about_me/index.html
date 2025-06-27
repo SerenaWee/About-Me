@@ -10,6 +10,7 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary nav nav-pills">
@@ -36,38 +37,83 @@
         </div>
       </div>
     </nav>
+    <!-- Tab links 
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+
+ Tab content 
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+<script>
+function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+-->
     <div class="about-section">
       <h1>Who is Serena?</h1>
       <p></p>
-      <p>
-        Resize the browser window to see that this page is responsive by the
-        way.
-      </p>
+      <p></p>
     </div>
 
     <div class="container-fluid text-left">
       <div class="row head align-items-start">
-        <div class="col"><b>About Me</b></div>
+        <div class="col-3"><b>About Me</b></div>
+        <div class="col-4"><b></b></div>
+        <div class="col-3"><b>Life Update </b></div>
       </div>
     </div>
 
     <div class="container-fluid text-left">
       <div class="row dist align-iteam-start">
-        <div class="col-3">
+        <div class="col-4">
           Hi, my name is Serena. I grew up in San francisco, California. I
           earned my Bachelor of Science in Mechanical Enigneering with a focus
           in Aerospace Engineering from the University of California, Berkeley
         </div>
+        <div class="col-3"></div>
+
+        <div class="col-4">
+          <u> June</u>
+          <p>
+          Started Dev/Mission Pre-Apprenteship program. It consist of 10 week of
+          intensive IT skills. Classes take place Monday to Thursday from 4pm -
+          7pm</p>
+        </div>
       </div>
     </div>
-    <div class="tab-content" id="Experience">
-  <h2>Tab 1: Experience</h2>
-  <p>Content for the introduction.</p>
-</div>
-
-<div id="Resume">
-  <h2>Tab 2: Resume</h2>
-  <p>More information about the topic.</p>
-</div>
+    <div class="tab-content" id="Experience"></div>
   </body>
 </html>
