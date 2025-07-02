@@ -3,14 +3,16 @@
   background-color: #f073c4;
 }
 .card {
-    width: 25rem;
+    width: 35rem;
+    height: 35rem;
+    padding: 0;
 }
 
 .btn {
   background-color: pink;
-  border: none;
+  border: 5%;
 }
- Style the tab
+ /* Style the tab
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
@@ -44,5 +46,5 @@ Style the tab content
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
-}
+} */
 
