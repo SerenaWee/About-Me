@@ -2,6 +2,14 @@
 #Work-Experience {
   background-color: #f073c4;
 }
+.card {
+    width: 25rem;
+}
+
+.btn {
+  background-color: pink;
+  border: none;
+}
  Style the tab
 .tab {
   overflow: hidden;
