@@ -1,6 +1,18 @@
 #Work-Experience {
   background-color: #f073c4;
 }
+
+.headshot-cointainer {
+  text-align: center; /* Centers the image horizontally within the container */
+}
+
+.headshot-container img {
+  /* display: block; Makes the image a block element */
+  margin: 0 auto; /* Centers the image horizontally */
+  width: 40%; /* Sets the image width to 50% of the container */
+  height: auto; /* Maintains the image's aspect ratio */
+}
+
 .card {
   height: 100%;
 }
@@ -24,22 +36,28 @@
   padding: 0;
 }
 
- .navbar a {
-  float: left;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 17px;
+.navbar a {
+  font-size: 15px;
+  color: black;
   width: 17%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
 }
 .navbar-nav {
-background-color: aquamarine;
-font-size: larger;
-font-weight: bolder;
-width: 100%;
+  background-color: rgb(125, 237, 254);
+  font-size: larger;
+  font-weight: bolder;
+  width: 100%;
 }
 
 .nav-link:hover {
-  background-color: rgb(131, 29, 239);
-  
+  background-color: rgb(122, 0, 252);
+  color: white;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
 }
