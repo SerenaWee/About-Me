@@ -3,9 +3,13 @@
   background-color: #f073c4;
 }
 .card {
-    width: 35rem;
-    height: 35rem;
-    padding: 0;
+    height:100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .btn {
