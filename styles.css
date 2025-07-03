@@ -9,7 +9,7 @@
 .headshot-container img {
   /* display: block; Makes the image a block element */
   margin: 0 auto; /* Centers the image horizontally */
-  width: 40%; /* Sets the image width to 50% of the container */
+  width: 20%; /* Sets the image width to 50% of the container */
   height: auto; /* Maintains the image's aspect ratio */
 }
 
