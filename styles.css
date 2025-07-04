@@ -1,6 +1,9 @@
-#Work-Experience {
-  background-color: #99def9;
-}
+#Volunteer-Experience, #Resume, #Life-Update {
+  background-image: url(background.jpg);
+    backdrop-filter: saturate(100%);
+    background-size: 100% ;
+  }
+
 
 .headshot-cointainer {
   text-align: center; /* Centers the image horizontally within the container */
