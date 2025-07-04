@@ -1,5 +1,5 @@
 #Work-Experience {
-  background-color: #f073c4;
+  background-color: #99def9;
 }
 
 .headshot-cointainer {
@@ -26,6 +26,7 @@
 .btn {
   background-color: pink;
   border: 5%;
+  color: black;
 }
 
 .document-center {
@@ -34,10 +35,10 @@
   text-align: center; /* Center text within the container */
   /* For vertical centering (using flexbox) */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 1000px; /* Adjust as needed */
+  height: 600px; /* Adjust as needed */
 }
 
 .pdf {
@@ -72,4 +73,11 @@ h1 {
   font-style: normal;
   font-size: 4rem;
   padding: 2rem;
+}
+
+.pill-text {
+    background-color: pink; /* Or any desired color */
+    border-radius: 20px; /* Adjust the radius as needed */
+    padding: 5px 15px; /* Adjust padding as needed */
+    display: inline-block; /* Optional: Adjusts element behavior */
 }
