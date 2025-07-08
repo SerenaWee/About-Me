@@ -4,7 +4,6 @@
     background-size: 100% ;
   }
 
-
 .headshot-cointainer {
   text-align: center; /* Centers the image horizontally within the container */
 }
@@ -14,12 +13,14 @@
   margin: 0 auto; /* Centers the image horizontally */
   width: 20%; /* Sets the image width to 50% of the container */
   height: auto; /* Maintains the image's aspect ratio */
+
 }
 .Aero-container img {
   /* display: block; Makes the image a block element */
   margin: 0 auto; /* Centers the image horizontally */
   width: 50%; /* Sets the image width to 50% of the container */
   height: auto; /* Maintains the image's aspect ratio */
+  max-width: 30%;
 }
 
 .SWE-container img {
@@ -27,6 +28,7 @@
   margin: 0 auto; /* Centers the image horizontally */
   width: 30%; /* Sets the image width to 50% of the container */
   height: auto; /* Maintains the image's aspect ratio */
+  max-width: 20%;
 }
 
 .card {
@@ -47,6 +49,7 @@
 
 .document-center {
   width: 80%; /* Adjust as needed */
+  max-width: 60%;
   margin: 0 auto;
   text-align: center; /* Center text within the container */
   /* For vertical centering (using flexbox) */
@@ -54,7 +57,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 600px; /* Adjust as needed */
+  height: 80%; /* Adjust as needed */
 }
 
 .pdf {
