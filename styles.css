@@ -15,6 +15,19 @@
   width: 20%; /* Sets the image width to 50% of the container */
   height: auto; /* Maintains the image's aspect ratio */
 }
+.Aero-container img {
+  /* display: block; Makes the image a block element */
+  margin: 0 auto; /* Centers the image horizontally */
+  width: 50%; /* Sets the image width to 50% of the container */
+  height: auto; /* Maintains the image's aspect ratio */
+}
+
+.SWE-container img {
+  /* display: block; Makes the image a block element */
+  margin: 0 auto; /* Centers the image horizontally */
+  width: 30%; /* Sets the image width to 50% of the container */
+  height: auto; /* Maintains the image's aspect ratio */
+}
 
 .card {
   height: 100%;
